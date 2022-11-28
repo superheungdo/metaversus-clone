@@ -105,3 +105,48 @@
   background: #65c4fa;
   filter: blur(150px);
 }
+
+@layer components {
+  .inner-width {
+    @apply w-full 2xl:max-w-[1280px];
+  }
+  .inter-width {
+    @apply w-[100%] lg:w-[80%];
+  }
+  .paddings {
+    @apply px-6 py-12 sm:p-16;
+  }
+  .y-paddings {
+    @apply py-12 sm:py-16;
+  }
+  .x-paddings {
+    @apply px-6 sm:px-16;
+  }
+  .top-paddings {
+    @apply pt-12 sm:pt-16;
+  }
+  .bottom-paddings {
+    @apply pb-12 sm:pb-16;
+  }
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+  .flex-start {
+    @apply flex justify-start items-start;
+  }
+  .flex-end {
+    @apply flex justify-end;
+  }
+  .nav-padding {
+    @apply pt-[98px];
+  }
+  .hero-heading {
+    @apply text-[44px] sm:text-[60px] md:text-[100px] lg:text-[144px]
+           leading-[64.4px] sm:leading-[74.4px] md:leading-[114.4px] lg:leading-[158.4px]
+           font-bold uppercase text-white;
+  }
+  .hero-d-text {
+    @apply w-[60px] sm:w-[80px] md:w-[212px] h-[38px] sm:h-[48px] md:h-[108px]
+           border-[9px] md:border-[18px] rounded-r-[50px] border-white mx-[6px] sm:mx-2;
+  }
+}
