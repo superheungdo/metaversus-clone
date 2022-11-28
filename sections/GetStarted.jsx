@@ -36,8 +36,8 @@ const GetStarted = () => (
         <TitleText title={<>Get started with just a few clicks</>} />
 
         <div className="flex flex-col max-w-[370px] mt-[31px] gap-[24px]">
-          {startingFeatures.map((featrue, index) => (
-            <StartSteps key={featrue} number={index + 1} text={featrue} />
+          {startingFeatures.map((feature, index) => (
+            <StartSteps key={feature} number={index + 1} text={feature} />
           ))}
         </div>
       </motion.div>
