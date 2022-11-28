@@ -147,6 +147,6 @@
   }
   .hero-d-text {
     @apply w-[60px] sm:w-[80px] md:w-[212px] h-[38px] sm:h-[48px] md:h-[108px]
-           border-[9px] md:border-[18px] rounded-r-[50px] border-white mx-[6px] sm:mx-2;
+           border-[7px] md:border-[18px] rounded-r-[50px] border-white mx-[6px] sm:mx-2;
   }
 }
